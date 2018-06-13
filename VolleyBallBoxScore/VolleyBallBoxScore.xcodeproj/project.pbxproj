@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0465499C1F0B8EA5006DA18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465499B1F0B8EA5006DA18B /* main.m */; };
+		0465499F1F0B8EA5006DA18B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465499E1F0B8EA5006DA18B /* AppDelegate.m */; };
+		046549A51F0B8EA5006DA18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046549A31F0B8EA5006DA18B /* Main.storyboard */; };
+		046549A71F0B8EA5006DA18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046549A61F0B8EA5006DA18B /* Assets.xcassets */; };
+		046549AA1F0B8EA5006DA18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046549A81F0B8EA5006DA18B /* LaunchScreen.storyboard */; };
+		046549B51F0B8EA5006DA18B /* VolleyBallBoxScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046549B41F0B8EA5006DA18B /* VolleyBallBoxScoreTests.m */; };
+		046549C01F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046549BF1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.m */; };
+		04654A541F0B9254006DA18B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A521F0B9254006DA18B /* HomeViewController.m */; };
+		04654A551F0B9254006DA18B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04654A531F0B9254006DA18B /* HomeViewController.xib */; };
+		04654A9F1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A591F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.m */; };
+		04654AA01F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A5B1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.m */; };
+		04654AA11F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A5D1F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.m */; };
+		04654AA21F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A5F1F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.m */; };
+		04654AA31F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A611F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.m */; };
+		04654AA41F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A631F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.m */; };
+		04654AA51F0B92ED006DA18B /* DataManager+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A661F0B92ED006DA18B /* DataManager+Tool.m */; };
+		04654AA61F0B92ED006DA18B /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A681F0B92ED006DA18B /* DataManager.m */; };
+		04654AA71F0B92ED006DA18B /* VolleyBallData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04654A691F0B92ED006DA18B /* VolleyBallData.xcdatamodeld */; };
+		04654AA81F0B92ED006DA18B /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A6D1F0B92ED006DA18B /* NSData+Category.m */; };
+		04654AA91F0B92ED006DA18B /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A6F1F0B92ED006DA18B /* NSDate+Category.m */; };
+		04654AAA1F0B92ED006DA18B /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A711F0B92ED006DA18B /* NSDateFormatter+Category.m */; };
+		04654AAB1F0B92ED006DA18B /* NSDictionary+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A731F0B92ED006DA18B /* NSDictionary+Json.m */; };
+		04654AAC1F0B92ED006DA18B /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A751F0B92ED006DA18B /* NSObject+Property.m */; };
+		04654AAD1F0B92ED006DA18B /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A771F0B92ED006DA18B /* NSString+Category.m */; };
+		04654AAE1F0B92ED006DA18B /* UIGestureRecognizer+Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A791F0B92ED006DA18B /* UIGestureRecognizer+Drag.m */; };
+		04654AAF1F0B92ED006DA18B /* UIView+Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A7B1F0B92ED006DA18B /* UIView+Drag.m */; };
+		04654AB01F0B92ED006DA18B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A7D1F0B92ED006DA18B /* UIView+Extension.m */; };
+		04654AB11F0B92ED006DA18B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04654A801F0B92ED006DA18B /* LICENSE */; };
+		04654AB21F0B92ED006DA18B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A821F0B92ED006DA18B /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04654AB31F0B92ED006DA18B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A841F0B92ED006DA18B /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04654AB41F0B92ED006DA18B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A871F0B92ED006DA18B /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04654AB51F0B92ED006DA18B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A891F0B92ED006DA18B /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04654AB61F0B92ED006DA18B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A8B1F0B92ED006DA18B /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04654AB71F0B92ED006DA18B /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 04654A8E1F0B92ED006DA18B /* Documentation.html */; };
+		04654AB81F0B92ED006DA18B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A901F0B92ED006DA18B /* GCDAsyncSocket.m */; };
+		04654AB91F0B92ED006DA18B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A921F0B92ED006DA18B /* GCDAsyncUdpSocket.m */; };
+		04654ABA1F0B92ED006DA18B /* SocketManager+request.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A941F0B92ED006DA18B /* SocketManager+request.m */; };
+		04654ABB1F0B92ED006DA18B /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A961F0B92ED006DA18B /* SocketManager.m */; };
+		04654ABC1F0B92ED006DA18B /* HC_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A9A1F0B92ED006DA18B /* HC_GCDTimerManager.m */; };
+		04654ABD1F0B92ED006DA18B /* VBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A9C1F0B92ED006DA18B /* VBAlertView.m */; };
+		04654ABE1F0B92ED006DA18B /* VBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654A9E1F0B92ED006DA18B /* VBHUD.m */; };
+		04654ACB1F0B946D006DA18B /* LineUpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654AC81F0B946D006DA18B /* LineUpModel.m */; };
+		04654ACC1F0B946D006DA18B /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654ACA1F0B946D006DA18B /* UserInfo.m */; };
+		04654ACF1F0B94F4006DA18B /* tuodong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04654ACD1F0B94F4006DA18B /* tuodong.wav */; };
+		04654AD01F0B94F4006DA18B /* dianji.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04654ACE1F0B94F4006DA18B /* dianji.wav */; };
+		04654ADC1F0B950C006DA18B /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654AD31F0B950C006DA18B /* CircleLayout.m */; };
+		04654ADD1F0B950C006DA18B /* FaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654AD51F0B950C006DA18B /* FaultView.m */; };
+		04654ADE1F0B950C006DA18B /* ScoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654AD71F0B950C006DA18B /* ScoreButton.m */; };
+		04654ADF1F0B950C006DA18B /* SCoreLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654AD91F0B950C006DA18B /* SCoreLeftView.m */; };
+		04654AE01F0B950C006DA18B /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04654ADB1F0B950C006DA18B /* ScoreView.m */; };
+		1D998CAEC6D5130CF82B2DD8 /* libPods-VolleyBallBoxScoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24B9208D9D3411FD6911E22 /* libPods-VolleyBallBoxScoreUITests.a */; };
+		61705FE2D8B0385B19D9D71F /* libPods-VolleyBallBoxScoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E1284BD2DF157C880B3247 /* libPods-VolleyBallBoxScoreTests.a */; };
+		7784EA46B072D5FAE6EDFAD8 /* libPods-VolleyBallBoxScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFD660F14D921E428327868 /* libPods-VolleyBallBoxScore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046549B11F0B8EA5006DA18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0465498F1F0B8EA5006DA18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046549961F0B8EA5006DA18B;
+			remoteInfo = VolleyBallBoxScore;
+		};
+		046549BC1F0B8EA5006DA18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0465498F1F0B8EA5006DA18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046549961F0B8EA5006DA18B;
+			remoteInfo = VolleyBallBoxScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046549971F0B8EA5006DA18B /* VolleyBallBoxScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyBallBoxScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0465499B1F0B8EA5006DA18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0465499D1F0B8EA5006DA18B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0465499E1F0B8EA5006DA18B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046549A41F0B8EA5006DA18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046549A61F0B8EA5006DA18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046549A91F0B8EA5006DA18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046549AB1F0B8EA5006DA18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046549B01F0B8EA5006DA18B /* VolleyBallBoxScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyBallBoxScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046549B41F0B8EA5006DA18B /* VolleyBallBoxScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolleyBallBoxScoreTests.m; sourceTree = "<group>"; };
+		046549B61F0B8EA5006DA18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046549BB1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyBallBoxScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046549BF1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolleyBallBoxScoreUITests.m; sourceTree = "<group>"; };
+		046549C11F0B8EA5006DA18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04654A511F0B9254006DA18B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04654A521F0B9254006DA18B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04654A531F0B9254006DA18B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		04654A581F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallPlayers+CoreDataClass.h"; sourceTree = "<group>"; };
+		04654A591F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallPlayers+CoreDataClass.m"; sourceTree = "<group>"; };
+		04654A5A1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallPlayers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04654A5B1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallPlayers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04654A5C1F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallSection+CoreDataClass.h"; sourceTree = "<group>"; };
+		04654A5D1F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallSection+CoreDataClass.m"; sourceTree = "<group>"; };
+		04654A5E1F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallSection+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04654A5F1F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallSection+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04654A601F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallTechnical+CoreDataClass.h"; sourceTree = "<group>"; };
+		04654A611F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallTechnical+CoreDataClass.m"; sourceTree = "<group>"; };
+		04654A621F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VolleyBallTechnical+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04654A631F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VolleyBallTechnical+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04654A651F0B92ED006DA18B /* DataManager+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DataManager+Tool.h"; sourceTree = "<group>"; };
+		04654A661F0B92ED006DA18B /* DataManager+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DataManager+Tool.m"; sourceTree = "<group>"; };
+		04654A671F0B92ED006DA18B /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		04654A681F0B92ED006DA18B /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		04654A6A1F0B92ED006DA18B /* VolleyBallData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VolleyBallData.xcdatamodel; sourceTree = "<group>"; };
+		04654A6C1F0B92ED006DA18B /* NSData+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
+		04654A6D1F0B92ED006DA18B /* NSData+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Category.m"; sourceTree = "<group>"; };
+		04654A6E1F0B92ED006DA18B /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		04654A6F1F0B92ED006DA18B /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		04654A701F0B92ED006DA18B /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		04654A711F0B92ED006DA18B /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		04654A721F0B92ED006DA18B /* NSDictionary+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Json.h"; sourceTree = "<group>"; };
+		04654A731F0B92ED006DA18B /* NSDictionary+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Json.m"; sourceTree = "<group>"; };
+		04654A741F0B92ED006DA18B /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		04654A751F0B92ED006DA18B /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		04654A761F0B92ED006DA18B /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		04654A771F0B92ED006DA18B /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		04654A781F0B92ED006DA18B /* UIGestureRecognizer+Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Drag.h"; sourceTree = "<group>"; };
+		04654A791F0B92ED006DA18B /* UIGestureRecognizer+Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Drag.m"; sourceTree = "<group>"; };
+		04654A7A1F0B92ED006DA18B /* UIView+Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Drag.h"; sourceTree = "<group>"; };
+		04654A7B1F0B92ED006DA18B /* UIView+Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Drag.m"; sourceTree = "<group>"; };
+		04654A7C1F0B92ED006DA18B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		04654A7D1F0B92ED006DA18B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		04654A7F1F0B92ED006DA18B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		04654A801F0B92ED006DA18B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04654A811F0B92ED006DA18B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		04654A821F0B92ED006DA18B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		04654A831F0B92ED006DA18B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		04654A841F0B92ED006DA18B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		04654A851F0B92ED006DA18B /* SBJSON-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SBJSON-Prefix.pch"; sourceTree = "<group>"; };
+		04654A861F0B92ED006DA18B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		04654A871F0B92ED006DA18B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		04654A881F0B92ED006DA18B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		04654A891F0B92ED006DA18B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		04654A8A1F0B92ED006DA18B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		04654A8B1F0B92ED006DA18B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		04654A8E1F0B92ED006DA18B /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		04654A8F1F0B92ED006DA18B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		04654A901F0B92ED006DA18B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		04654A911F0B92ED006DA18B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		04654A921F0B92ED006DA18B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		04654A931F0B92ED006DA18B /* SocketManager+request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketManager+request.h"; sourceTree = "<group>"; };
+		04654A941F0B92ED006DA18B /* SocketManager+request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SocketManager+request.m"; sourceTree = "<group>"; };
+		04654A951F0B92ED006DA18B /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		04654A961F0B92ED006DA18B /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		04654A991F0B92ED006DA18B /* HC_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HC_GCDTimerManager.h; sourceTree = "<group>"; };
+		04654A9A1F0B92ED006DA18B /* HC_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HC_GCDTimerManager.m; sourceTree = "<group>"; };
+		04654A9B1F0B92ED006DA18B /* VBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAlertView.h; sourceTree = "<group>"; };
+		04654A9C1F0B92ED006DA18B /* VBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAlertView.m; sourceTree = "<group>"; };
+		04654A9D1F0B92ED006DA18B /* VBHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBHUD.h; sourceTree = "<group>"; };
+		04654A9E1F0B92ED006DA18B /* VBHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBHUD.m; sourceTree = "<group>"; };
+		04654AC11F0B941A006DA18B /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		04654AC21F0B941A006DA18B /* CommonAppKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAppKey.h; sourceTree = "<group>"; };
+		04654AC31F0B941A006DA18B /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		04654AC41F0B9421006DA18B /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		04654AC51F0B943C006DA18B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04654AC71F0B946D006DA18B /* LineUpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineUpModel.h; sourceTree = "<group>"; };
+		04654AC81F0B946D006DA18B /* LineUpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineUpModel.m; sourceTree = "<group>"; };
+		04654AC91F0B946D006DA18B /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		04654ACA1F0B946D006DA18B /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		04654ACD1F0B94F4006DA18B /* tuodong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tuodong.wav; sourceTree = "<group>"; };
+		04654ACE1F0B94F4006DA18B /* dianji.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dianji.wav; sourceTree = "<group>"; };
+		04654AD21F0B950C006DA18B /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		04654AD31F0B950C006DA18B /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		04654AD41F0B950C006DA18B /* FaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaultView.h; sourceTree = "<group>"; };
+		04654AD51F0B950C006DA18B /* FaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaultView.m; sourceTree = "<group>"; };
+		04654AD61F0B950C006DA18B /* ScoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreButton.h; sourceTree = "<group>"; };
+		04654AD71F0B950C006DA18B /* ScoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreButton.m; sourceTree = "<group>"; };
+		04654AD81F0B950C006DA18B /* SCoreLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCoreLeftView.h; sourceTree = "<group>"; };
+		04654AD91F0B950C006DA18B /* SCoreLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCoreLeftView.m; sourceTree = "<group>"; };
+		04654ADA1F0B950C006DA18B /* ScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreView.h; sourceTree = "<group>"; };
+		04654ADB1F0B950C006DA18B /* ScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreView.m; sourceTree = "<group>"; };
+		30EDD0773C5D473CA6D62AA1 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScoreTests/Pods-VolleyBallBoxScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C840473E805FA74526F6DCE /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScoreUITests/Pods-VolleyBallBoxScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7891079F95DABA0BC433A35C /* Pods-VolleyBallBoxScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScoreTests/Pods-VolleyBallBoxScoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		93E1284BD2DF157C880B3247 /* libPods-VolleyBallBoxScoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VolleyBallBoxScoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B9208D9D3411FD6911E22 /* libPods-VolleyBallBoxScoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VolleyBallBoxScoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE89879C6BD95DE62D9E12A /* Pods-VolleyBallBoxScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScore/Pods-VolleyBallBoxScore.debug.xcconfig"; sourceTree = "<group>"; };
+		D6CEABB77DB57C1EAC4EB392 /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScoreUITests/Pods-VolleyBallBoxScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCFD660F14D921E428327868 /* libPods-VolleyBallBoxScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VolleyBallBoxScore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF35EDEB8480BCEC3CD3474 /* Pods-VolleyBallBoxScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyBallBoxScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolleyBallBoxScore/Pods-VolleyBallBoxScore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046549941F0B8EA5006DA18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784EA46B072D5FAE6EDFAD8 /* libPods-VolleyBallBoxScore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549AD1F0B8EA5006DA18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61705FE2D8B0385B19D9D71F /* libPods-VolleyBallBoxScoreTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549B81F0B8EA5006DA18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D998CAEC6D5130CF82B2DD8 /* libPods-VolleyBallBoxScoreUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0465498E1F0B8EA5006DA18B = {
+			isa = PBXGroup;
+			children = (
+				046549991F0B8EA5006DA18B /* VolleyBallBoxScore */,
+				046549B31F0B8EA5006DA18B /* VolleyBallBoxScoreTests */,
+				046549BE1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests */,
+				046549981F0B8EA5006DA18B /* Products */,
+				44A2AE5CEC55AFDCB629DFEC /* Pods */,
+				46FF3918A0552B1558184BFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046549981F0B8EA5006DA18B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046549971F0B8EA5006DA18B /* VolleyBallBoxScore.app */,
+				046549B01F0B8EA5006DA18B /* VolleyBallBoxScoreTests.xctest */,
+				046549BB1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046549991F0B8EA5006DA18B /* VolleyBallBoxScore */ = {
+			isa = PBXGroup;
+			children = (
+				0465499D1F0B8EA5006DA18B /* AppDelegate.h */,
+				0465499E1F0B8EA5006DA18B /* AppDelegate.m */,
+				04654A4C1F0B921B006DA18B /* Resource */,
+				04654A4D1F0B921B006DA18B /* Vender */,
+				04654A4B1F0B9200006DA18B /* Expand */,
+				04654A4E1F0B9226006DA18B /* Main */,
+				046549A31F0B8EA5006DA18B /* Main.storyboard */,
+				046549A61F0B8EA5006DA18B /* Assets.xcassets */,
+				046549A81F0B8EA5006DA18B /* LaunchScreen.storyboard */,
+				046549AB1F0B8EA5006DA18B /* Info.plist */,
+				0465499A1F0B8EA5006DA18B /* Supporting Files */,
+			);
+			path = VolleyBallBoxScore;
+			sourceTree = "<group>";
+		};
+		0465499A1F0B8EA5006DA18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0465499B1F0B8EA5006DA18B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046549B31F0B8EA5006DA18B /* VolleyBallBoxScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				046549B41F0B8EA5006DA18B /* VolleyBallBoxScoreTests.m */,
+				046549B61F0B8EA5006DA18B /* Info.plist */,
+			);
+			path = VolleyBallBoxScoreTests;
+			sourceTree = "<group>";
+		};
+		046549BE1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046549BF1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.m */,
+				046549C11F0B8EA5006DA18B /* Info.plist */,
+			);
+			path = VolleyBallBoxScoreUITests;
+			sourceTree = "<group>";
+		};
+		04654A4B1F0B9200006DA18B /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				04654AC61F0B946D006DA18B /* Base */,
+				04654ABF1F0B9358006DA18B /* PCH */,
+				04654A561F0B92ED006DA18B /* CoreData */,
+				04654A6B1F0B92ED006DA18B /* Extension */,
+				04654A7E1F0B92ED006DA18B /* SBJSON */,
+				04654A8C1F0B92ED006DA18B /* Socket */,
+				04654A971F0B92ED006DA18B /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		04654A4C1F0B921B006DA18B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04654ACD1F0B94F4006DA18B /* tuodong.wav */,
+				04654ACE1F0B94F4006DA18B /* dianji.wav */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04654A4D1F0B921B006DA18B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		04654A4E1F0B9226006DA18B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04654A4F1F0B923F006DA18B /* Home */,
+				04654A501F0B923F006DA18B /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04654A4F1F0B923F006DA18B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04654AD11F0B950C006DA18B /* View */,
+				04654A511F0B9254006DA18B /* HomeViewController.h */,
+				04654A521F0B9254006DA18B /* HomeViewController.m */,
+				04654A531F0B9254006DA18B /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04654A501F0B923F006DA18B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04654A561F0B92ED006DA18B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04654A571F0B92ED006DA18B /* CoreData_List */,
+				04654A641F0B92ED006DA18B /* CoreData_Tool */,
+				04654A691F0B92ED006DA18B /* VolleyBallData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		04654A571F0B92ED006DA18B /* CoreData_List */ = {
+			isa = PBXGroup;
+			children = (
+				04654A581F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.h */,
+				04654A591F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.m */,
+				04654A5A1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.h */,
+				04654A5B1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.m */,
+				04654A5C1F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.h */,
+				04654A5D1F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.m */,
+				04654A5E1F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.h */,
+				04654A5F1F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.m */,
+				04654A601F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.h */,
+				04654A611F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.m */,
+				04654A621F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.h */,
+				04654A631F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.m */,
+			);
+			path = CoreData_List;
+			sourceTree = "<group>";
+		};
+		04654A641F0B92ED006DA18B /* CoreData_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04654A651F0B92ED006DA18B /* DataManager+Tool.h */,
+				04654A661F0B92ED006DA18B /* DataManager+Tool.m */,
+				04654A671F0B92ED006DA18B /* DataManager.h */,
+				04654A681F0B92ED006DA18B /* DataManager.m */,
+			);
+			path = CoreData_Tool;
+			sourceTree = "<group>";
+		};
+		04654A6B1F0B92ED006DA18B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04654A6C1F0B92ED006DA18B /* NSData+Category.h */,
+				04654A6D1F0B92ED006DA18B /* NSData+Category.m */,
+				04654A6E1F0B92ED006DA18B /* NSDate+Category.h */,
+				04654A6F1F0B92ED006DA18B /* NSDate+Category.m */,
+				04654A701F0B92ED006DA18B /* NSDateFormatter+Category.h */,
+				04654A711F0B92ED006DA18B /* NSDateFormatter+Category.m */,
+				04654A721F0B92ED006DA18B /* NSDictionary+Json.h */,
+				04654A731F0B92ED006DA18B /* NSDictionary+Json.m */,
+				04654A741F0B92ED006DA18B /* NSObject+Property.h */,
+				04654A751F0B92ED006DA18B /* NSObject+Property.m */,
+				04654A761F0B92ED006DA18B /* NSString+Category.h */,
+				04654A771F0B92ED006DA18B /* NSString+Category.m */,
+				04654A781F0B92ED006DA18B /* UIGestureRecognizer+Drag.h */,
+				04654A791F0B92ED006DA18B /* UIGestureRecognizer+Drag.m */,
+				04654A7A1F0B92ED006DA18B /* UIView+Drag.h */,
+				04654A7B1F0B92ED006DA18B /* UIView+Drag.m */,
+				04654A7C1F0B92ED006DA18B /* UIView+Extension.h */,
+				04654A7D1F0B92ED006DA18B /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04654A7E1F0B92ED006DA18B /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				04654A7F1F0B92ED006DA18B /* JSON.h */,
+				04654A801F0B92ED006DA18B /* LICENSE */,
+				04654A811F0B92ED006DA18B /* NSObject+SBJSON.h */,
+				04654A821F0B92ED006DA18B /* NSObject+SBJSON.m */,
+				04654A831F0B92ED006DA18B /* NSString+SBJSON.h */,
+				04654A841F0B92ED006DA18B /* NSString+SBJSON.m */,
+				04654A851F0B92ED006DA18B /* SBJSON-Prefix.pch */,
+				04654A861F0B92ED006DA18B /* SBJsonBase.h */,
+				04654A871F0B92ED006DA18B /* SBJsonBase.m */,
+				04654A881F0B92ED006DA18B /* SBJsonParser.h */,
+				04654A891F0B92ED006DA18B /* SBJsonParser.m */,
+				04654A8A1F0B92ED006DA18B /* SBJsonWriter.h */,
+				04654A8B1F0B92ED006DA18B /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		04654A8C1F0B92ED006DA18B /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				04654A8D1F0B92ED006DA18B /* GCDSocketAPI */,
+				04654A931F0B92ED006DA18B /* SocketManager+request.h */,
+				04654A941F0B92ED006DA18B /* SocketManager+request.m */,
+				04654A951F0B92ED006DA18B /* SocketManager.h */,
+				04654A961F0B92ED006DA18B /* SocketManager.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		04654A8D1F0B92ED006DA18B /* GCDSocketAPI */ = {
+			isa = PBXGroup;
+			children = (
+				04654A8E1F0B92ED006DA18B /* Documentation.html */,
+				04654A8F1F0B92ED006DA18B /* GCDAsyncSocket.h */,
+				04654A901F0B92ED006DA18B /* GCDAsyncSocket.m */,
+				04654A911F0B92ED006DA18B /* GCDAsyncUdpSocket.h */,
+				04654A921F0B92ED006DA18B /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCDSocketAPI;
+			sourceTree = "<group>";
+		};
+		04654A971F0B92ED006DA18B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04654A981F0B92ED006DA18B /* AlertManager */,
+				04654A991F0B92ED006DA18B /* HC_GCDTimerManager.h */,
+				04654A9A1F0B92ED006DA18B /* HC_GCDTimerManager.m */,
+				04654A9B1F0B92ED006DA18B /* VBAlertView.h */,
+				04654A9C1F0B92ED006DA18B /* VBAlertView.m */,
+				04654A9D1F0B92ED006DA18B /* VBHUD.h */,
+				04654A9E1F0B92ED006DA18B /* VBHUD.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		04654A981F0B92ED006DA18B /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AlertManager;
+			sourceTree = "<group>";
+		};
+		04654ABF1F0B9358006DA18B /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				04654AC41F0B9421006DA18B /* HeaderFile.h */,
+				04654AC11F0B941A006DA18B /* Color.h */,
+				04654AC21F0B941A006DA18B /* CommonAppKey.h */,
+				04654AC31F0B941A006DA18B /* CommonDefine.h */,
+				04654AC51F0B943C006DA18B /* PrefixHeader.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		04654AC61F0B946D006DA18B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04654AC71F0B946D006DA18B /* LineUpModel.h */,
+				04654AC81F0B946D006DA18B /* LineUpModel.m */,
+				04654AC91F0B946D006DA18B /* UserInfo.h */,
+				04654ACA1F0B946D006DA18B /* UserInfo.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04654AD11F0B950C006DA18B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04654AD21F0B950C006DA18B /* CircleLayout.h */,
+				04654AD31F0B950C006DA18B /* CircleLayout.m */,
+				04654AD41F0B950C006DA18B /* FaultView.h */,
+				04654AD51F0B950C006DA18B /* FaultView.m */,
+				04654AD61F0B950C006DA18B /* ScoreButton.h */,
+				04654AD71F0B950C006DA18B /* ScoreButton.m */,
+				04654AD81F0B950C006DA18B /* SCoreLeftView.h */,
+				04654AD91F0B950C006DA18B /* SCoreLeftView.m */,
+				04654ADA1F0B950C006DA18B /* ScoreView.h */,
+				04654ADB1F0B950C006DA18B /* ScoreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A2AE5CEC55AFDCB629DFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE89879C6BD95DE62D9E12A /* Pods-VolleyBallBoxScore.debug.xcconfig */,
+				FFF35EDEB8480BCEC3CD3474 /* Pods-VolleyBallBoxScore.release.xcconfig */,
+				30EDD0773C5D473CA6D62AA1 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */,
+				7891079F95DABA0BC433A35C /* Pods-VolleyBallBoxScoreTests.release.xcconfig */,
+				D6CEABB77DB57C1EAC4EB392 /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */,
+				6C840473E805FA74526F6DCE /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46FF3918A0552B1558184BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD660F14D921E428327868 /* libPods-VolleyBallBoxScore.a */,
+				93E1284BD2DF157C880B3247 /* libPods-VolleyBallBoxScoreTests.a */,
+				B24B9208D9D3411FD6911E22 /* libPods-VolleyBallBoxScoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046549961F0B8EA5006DA18B /* VolleyBallBoxScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046549C41F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScore" */;
+			buildPhases = (
+				ED9DB66E1E6460BC5999DB6A /* [CP] Check Pods Manifest.lock */,
+				046549931F0B8EA5006DA18B /* Sources */,
+				046549941F0B8EA5006DA18B /* Frameworks */,
+				046549951F0B8EA5006DA18B /* Resources */,
+				D6EF4BE788F1F6C339FBE36F /* [CP] Embed Pods Frameworks */,
+				4BB8C985E3F828C3D8BD206D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolleyBallBoxScore;
+			productName = VolleyBallBoxScore;
+			productReference = 046549971F0B8EA5006DA18B /* VolleyBallBoxScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046549AF1F0B8EA5006DA18B /* VolleyBallBoxScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046549C71F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScoreTests" */;
+			buildPhases = (
+				C4FF1685A912AD608CD68E41 /* [CP] Check Pods Manifest.lock */,
+				046549AC1F0B8EA5006DA18B /* Sources */,
+				046549AD1F0B8EA5006DA18B /* Frameworks */,
+				046549AE1F0B8EA5006DA18B /* Resources */,
+				93F805E798ADA24DE8165C89 /* [CP] Embed Pods Frameworks */,
+				275106D955A174908A2CFCCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046549B21F0B8EA5006DA18B /* PBXTargetDependency */,
+			);
+			name = VolleyBallBoxScoreTests;
+			productName = VolleyBallBoxScoreTests;
+			productReference = 046549B01F0B8EA5006DA18B /* VolleyBallBoxScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046549BA1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046549CA1F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScoreUITests" */;
+			buildPhases = (
+				0FD36833F8C3D325FEAC8D24 /* [CP] Check Pods Manifest.lock */,
+				046549B71F0B8EA5006DA18B /* Sources */,
+				046549B81F0B8EA5006DA18B /* Frameworks */,
+				046549B91F0B8EA5006DA18B /* Resources */,
+				F376871E6E1470E35BE7B233 /* [CP] Embed Pods Frameworks */,
+				1E6A57612F9929CB575B6D51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046549BD1F0B8EA5006DA18B /* PBXTargetDependency */,
+			);
+			name = VolleyBallBoxScoreUITests;
+			productName = VolleyBallBoxScoreUITests;
+			productReference = 046549BB1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0465498F1F0B8EA5006DA18B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = thc;
+				TargetAttributes = {
+					046549961F0B8EA5006DA18B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7BG3Q9CGT5;
+						ProvisioningStyle = Automatic;
+					};
+					046549AF1F0B8EA5006DA18B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7BG3Q9CGT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 046549961F0B8EA5006DA18B;
+					};
+					046549BA1F0B8EA5006DA18B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7BG3Q9CGT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 046549961F0B8EA5006DA18B;
+					};
+				};
+			};
+			buildConfigurationList = 046549921F0B8EA5006DA18B /* Build configuration list for PBXProject "VolleyBallBoxScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0465498E1F0B8EA5006DA18B;
+			productRefGroup = 046549981F0B8EA5006DA18B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046549961F0B8EA5006DA18B /* VolleyBallBoxScore */,
+				046549AF1F0B8EA5006DA18B /* VolleyBallBoxScoreTests */,
+				046549BA1F0B8EA5006DA18B /* VolleyBallBoxScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046549951F0B8EA5006DA18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046549AA1F0B8EA5006DA18B /* LaunchScreen.storyboard in Resources */,
+				04654ACF1F0B94F4006DA18B /* tuodong.wav in Resources */,
+				04654AB71F0B92ED006DA18B /* Documentation.html in Resources */,
+				046549A71F0B8EA5006DA18B /* Assets.xcassets in Resources */,
+				046549A51F0B8EA5006DA18B /* Main.storyboard in Resources */,
+				04654AD01F0B94F4006DA18B /* dianji.wav in Resources */,
+				04654A551F0B9254006DA18B /* HomeViewController.xib in Resources */,
+				04654AB11F0B92ED006DA18B /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549AE1F0B8EA5006DA18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549B91F0B8EA5006DA18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD36833F8C3D325FEAC8D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6A57612F9929CB575B6D51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScoreUITests/Pods-VolleyBallBoxScoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		275106D955A174908A2CFCCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScoreTests/Pods-VolleyBallBoxScoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB8C985E3F828C3D8BD206D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScore/Pods-VolleyBallBoxScore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F805E798ADA24DE8165C89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScoreTests/Pods-VolleyBallBoxScoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FF1685A912AD608CD68E41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6EF4BE788F1F6C339FBE36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScore/Pods-VolleyBallBoxScore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9DB66E1E6460BC5999DB6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F376871E6E1470E35BE7B233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolleyBallBoxScoreUITests/Pods-VolleyBallBoxScoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046549931F0B8EA5006DA18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04654ACB1F0B946D006DA18B /* LineUpModel.m in Sources */,
+				0465499F1F0B8EA5006DA18B /* AppDelegate.m in Sources */,
+				04654AB61F0B92ED006DA18B /* SBJsonWriter.m in Sources */,
+				04654ADF1F0B950C006DA18B /* SCoreLeftView.m in Sources */,
+				04654AB41F0B92ED006DA18B /* SBJsonBase.m in Sources */,
+				04654AA01F0B92ED006DA18B /* VolleyBallPlayers+CoreDataProperties.m in Sources */,
+				04654ADC1F0B950C006DA18B /* CircleLayout.m in Sources */,
+				04654AB91F0B92ED006DA18B /* GCDAsyncUdpSocket.m in Sources */,
+				04654AB51F0B92ED006DA18B /* SBJsonParser.m in Sources */,
+				04654AAF1F0B92ED006DA18B /* UIView+Drag.m in Sources */,
+				04654AB81F0B92ED006DA18B /* GCDAsyncSocket.m in Sources */,
+				04654AB01F0B92ED006DA18B /* UIView+Extension.m in Sources */,
+				04654AA91F0B92ED006DA18B /* NSDate+Category.m in Sources */,
+				04654AAE1F0B92ED006DA18B /* UIGestureRecognizer+Drag.m in Sources */,
+				0465499C1F0B8EA5006DA18B /* main.m in Sources */,
+				04654ADE1F0B950C006DA18B /* ScoreButton.m in Sources */,
+				04654ACC1F0B946D006DA18B /* UserInfo.m in Sources */,
+				04654AA81F0B92ED006DA18B /* NSData+Category.m in Sources */,
+				04654AB31F0B92ED006DA18B /* NSString+SBJSON.m in Sources */,
+				04654ADD1F0B950C006DA18B /* FaultView.m in Sources */,
+				04654AA71F0B92ED006DA18B /* VolleyBallData.xcdatamodeld in Sources */,
+				04654AE01F0B950C006DA18B /* ScoreView.m in Sources */,
+				04654AAC1F0B92ED006DA18B /* NSObject+Property.m in Sources */,
+				04654AA31F0B92ED006DA18B /* VolleyBallTechnical+CoreDataClass.m in Sources */,
+				04654AAA1F0B92ED006DA18B /* NSDateFormatter+Category.m in Sources */,
+				04654A9F1F0B92ED006DA18B /* VolleyBallPlayers+CoreDataClass.m in Sources */,
+				04654ABD1F0B92ED006DA18B /* VBAlertView.m in Sources */,
+				04654AA51F0B92ED006DA18B /* DataManager+Tool.m in Sources */,
+				04654AAB1F0B92ED006DA18B /* NSDictionary+Json.m in Sources */,
+				04654AA41F0B92ED006DA18B /* VolleyBallTechnical+CoreDataProperties.m in Sources */,
+				04654AB21F0B92ED006DA18B /* NSObject+SBJSON.m in Sources */,
+				04654ABE1F0B92ED006DA18B /* VBHUD.m in Sources */,
+				04654AAD1F0B92ED006DA18B /* NSString+Category.m in Sources */,
+				04654AA21F0B92ED006DA18B /* VolleyBallSection+CoreDataProperties.m in Sources */,
+				04654A541F0B9254006DA18B /* HomeViewController.m in Sources */,
+				04654ABC1F0B92ED006DA18B /* HC_GCDTimerManager.m in Sources */,
+				04654AA61F0B92ED006DA18B /* DataManager.m in Sources */,
+				04654AA11F0B92ED006DA18B /* VolleyBallSection+CoreDataClass.m in Sources */,
+				04654ABB1F0B92ED006DA18B /* SocketManager.m in Sources */,
+				04654ABA1F0B92ED006DA18B /* SocketManager+request.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549AC1F0B8EA5006DA18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046549B51F0B8EA5006DA18B /* VolleyBallBoxScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046549B71F0B8EA5006DA18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046549C01F0B8EA5006DA18B /* VolleyBallBoxScoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046549B21F0B8EA5006DA18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046549961F0B8EA5006DA18B /* VolleyBallBoxScore */;
+			targetProxy = 046549B11F0B8EA5006DA18B /* PBXContainerItemProxy */;
+		};
+		046549BD1F0B8EA5006DA18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046549961F0B8EA5006DA18B /* VolleyBallBoxScore */;
+			targetProxy = 046549BC1F0B8EA5006DA18B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046549A31F0B8EA5006DA18B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046549A41F0B8EA5006DA18B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046549A81F0B8EA5006DA18B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046549A91F0B8EA5006DA18B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046549C21F0B8EA5006DA18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046549C31F0B8EA5006DA18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046549C51F0B8EA5006DA18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE89879C6BD95DE62D9E12A /* Pods-VolleyBallBoxScore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VolleyBallBoxScore/Expand/PCH/PrefixHeader.pch";
+				INFOPLIST_FILE = VolleyBallBoxScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		046549C61F0B8EA5006DA18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF35EDEB8480BCEC3CD3474 /* Pods-VolleyBallBoxScore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VolleyBallBoxScore/Expand/PCH/PrefixHeader.pch";
+				INFOPLIST_FILE = VolleyBallBoxScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		046549C81F0B8EA5006DA18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EDD0773C5D473CA6D62AA1 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				INFOPLIST_FILE = VolleyBallBoxScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyBallBoxScore.app/VolleyBallBoxScore";
+			};
+			name = Debug;
+		};
+		046549C91F0B8EA5006DA18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7891079F95DABA0BC433A35C /* Pods-VolleyBallBoxScoreTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				INFOPLIST_FILE = VolleyBallBoxScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyBallBoxScore.app/VolleyBallBoxScore";
+			};
+			name = Release;
+		};
+		046549CB1F0B8EA5006DA18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CEABB77DB57C1EAC4EB392 /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				INFOPLIST_FILE = VolleyBallBoxScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VolleyBallBoxScore;
+			};
+			name = Debug;
+		};
+		046549CC1F0B8EA5006DA18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C840473E805FA74526F6DCE /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7BG3Q9CGT5;
+				INFOPLIST_FILE = VolleyBallBoxScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nuoda.VolleyBallBoxScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VolleyBallBoxScore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046549921F0B8EA5006DA18B /* Build configuration list for PBXProject "VolleyBallBoxScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046549C21F0B8EA5006DA18B /* Debug */,
+				046549C31F0B8EA5006DA18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046549C41F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046549C51F0B8EA5006DA18B /* Debug */,
+				046549C61F0B8EA5006DA18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046549C71F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046549C81F0B8EA5006DA18B /* Debug */,
+				046549C91F0B8EA5006DA18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046549CA1F0B8EA5006DA18B /* Build configuration list for PBXNativeTarget "VolleyBallBoxScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046549CB1F0B8EA5006DA18B /* Debug */,
+				046549CC1F0B8EA5006DA18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04654A691F0B92ED006DA18B /* VolleyBallData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04654A6A1F0B92ED006DA18B /* VolleyBallData.xcdatamodel */,
+			);
+			currentVersion = 04654A6A1F0B92ED006DA18B /* VolleyBallData.xcdatamodel */;
+			path = VolleyBallData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0465498F1F0B8EA5006DA18B /* Project object */;
+}

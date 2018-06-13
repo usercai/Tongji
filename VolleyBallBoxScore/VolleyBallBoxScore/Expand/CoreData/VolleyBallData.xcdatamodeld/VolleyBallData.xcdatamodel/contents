@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="VolleyBallPlayers" representedClassName="VolleyBallPlayers" syncable="YES">
+        <attribute name="commonNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="competitionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="competitionPlayerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errorNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOnBench" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSelect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerBirthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerRole" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scoreNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validNum" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VolleyBallSection" representedClassName="VolleyBallSection" syncable="YES">
+        <attribute name="competitionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="competitionSectionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstPositionA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstPositionB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servingSide" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startSide" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamAID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamAMatchScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamAName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamAPoint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamASubstitution" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamASuspend" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBMatchScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBPoint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBSubstitution" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamBSuspend" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VolleyBallTechnical" representedClassName="VolleyBallTechnical" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reasult" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamFightID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="technicalID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="VolleyBallPlayers" positionX="-45" positionY="0" width="128" height="285"/>
+        <element name="VolleyBallSection" positionX="-27" positionY="117" width="128" height="375"/>
+        <element name="VolleyBallTechnical" positionX="-18" positionY="99" width="128" height="180"/>
+    </elements>
+</model>

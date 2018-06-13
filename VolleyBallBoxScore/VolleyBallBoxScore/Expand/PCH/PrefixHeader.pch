@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  VolleyBallBoxScore
+//
+//  Created by mac on 2017/7/4.
+//  Copyright © 2017年 thc. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Color.h"
+#import "HeaderFile.h"
+#import "CommonAppKey.h"
+#import "CommonDefine.h"
+
+
+#endif /* PrefixHeader_pch */

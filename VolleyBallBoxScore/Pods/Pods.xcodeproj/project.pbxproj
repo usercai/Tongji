@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05431F84EE3369731186EA0E34E31381 /* Pods-VolleyBallBoxScoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D1D7E8FC7F449305CD68A660F90829 /* Pods-VolleyBallBoxScoreUITests-dummy.m */; };
+		05B407C099EC6361E03182A27A108F1D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */; };
+		09A1933C23EA045537EED5856E9946CE /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE721ADED43F40FA8B2F9201A9A3D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		130ADACF4BC23710E438F5E4D3C26BFC /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */; };
+		146DEC76C2CF0A4E662E217F421D036E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		195B016939B20E446B00D8DD5C5451E1 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */; };
+		60648F2C582B4A40E3B7E32C28A94315 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		809CC16DF3ED7477358C4F69AD92A3E5 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04EE91959D7FF0B1C0A4FF1E5EDE6C5 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B8E22E928E0E0C222881C9616FBBC6 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA4400D7475B30AC67659501E9C3B96 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */; };
+		BD2BD237D71DC86BF6482EFB8A68DD31 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */; };
+		C9E92DFD5C89F0F6C4EBAFFA5ED8FF20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		DA7A748BD077211D41AAB8DA478FDE43 /* Pods-VolleyBallBoxScoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1098083768B77437D37C1CEF6603A /* Pods-VolleyBallBoxScoreTests-dummy.m */; };
+		F7477722AB8C9F77205059CF52BA8C2C /* Pods-VolleyBallBoxScore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A4510CABB796CE890741214F77358 /* Pods-VolleyBallBoxScore-dummy.m */; };
+		F91402D02E7D72AC0D3B51C07B441FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E504CF55AE11F4A63B8E7E93DB11C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0160BF58B41E1812F7E746921065A0FA;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6AFEAA8CE75323BB2A77DFFEC6A47B /* Pods-VolleyBallBoxScoreUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScoreUITests-resources.sh"; sourceTree = "<group>"; };
+		233C2FF585B9364D81FA274A7767F2CD /* libPods-VolleyBallBoxScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VolleyBallBoxScore.a"; path = "libPods-VolleyBallBoxScore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		368DEE108EEFC7BE1EB0C98FFA852AA3 /* Pods-VolleyBallBoxScore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VolleyBallBoxScore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		376DFFEA0656FB1DD4F5CE2C65328241 /* libPods-VolleyBallBoxScoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VolleyBallBoxScoreTests.a"; path = "libPods-VolleyBallBoxScoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41F7EE0BADF3A9F1B965667B1EDD3868 /* Pods-VolleyBallBoxScoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VolleyBallBoxScoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5215CC02119EC55D1C4F8224456E3C04 /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57429E8DBE932371AF84DD97F0C451F0 /* Pods-VolleyBallBoxScoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VolleyBallBoxScoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6081FE729446B0FC8FE9434061C78EF7 /* Pods-VolleyBallBoxScore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScore-frameworks.sh"; sourceTree = "<group>"; };
+		64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6856585AA0A08C82EA672BD02CD16A50 /* Pods-VolleyBallBoxScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScore.debug.xcconfig"; sourceTree = "<group>"; };
+		68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		758A4510CABB796CE890741214F77358 /* Pods-VolleyBallBoxScore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VolleyBallBoxScore-dummy.m"; sourceTree = "<group>"; };
+		7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		76F1098083768B77437D37C1CEF6603A /* Pods-VolleyBallBoxScoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VolleyBallBoxScoreTests-dummy.m"; sourceTree = "<group>"; };
+		774A4E047BE035A7DC249D7EE026CAB7 /* Pods-VolleyBallBoxScoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VolleyBallBoxScoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		783FB4D454583B34B2EC34D0F08B43E7 /* Pods-VolleyBallBoxScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScore.release.xcconfig"; sourceTree = "<group>"; };
+		8257BB9B3905333DB946302BA52E2DFD /* Pods-VolleyBallBoxScoreTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScoreTests-frameworks.sh"; sourceTree = "<group>"; };
+		86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8DF398AC42C41D917390DC2631331415 /* Pods-VolleyBallBoxScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		A20E9F67F636DE01062FEFF316AF5A7E /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C0A29F6B737E0EBE114B299D99D75CE7 /* Pods-VolleyBallBoxScoreUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScoreUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		CC9D9BD7B4E5A405EA737E225149D50F /* Pods-VolleyBallBoxScore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VolleyBallBoxScore-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		DD2F3FBDA41F1014A63C571E16FEA941 /* Pods-VolleyBallBoxScore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScore-resources.sh"; sourceTree = "<group>"; };
+		DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E0EF6E3BAE79042766E2E2E0C83BE43D /* Pods-VolleyBallBoxScoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VolleyBallBoxScoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3BE9BE783781467181B7C4F84905C35 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F0D1D7E8FC7F449305CD68A660F90829 /* Pods-VolleyBallBoxScoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VolleyBallBoxScoreUITests-dummy.m"; sourceTree = "<group>"; };
+		FC212CA3FDAC5AE3504A78FE0D919BD4 /* Pods-VolleyBallBoxScoreTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VolleyBallBoxScoreTests-resources.sh"; sourceTree = "<group>"; };
+		FD49B5A30DB97275FF81EE83964B8FC4 /* libPods-VolleyBallBoxScoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VolleyBallBoxScoreUITests.a"; path = "libPods-VolleyBallBoxScoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5301F306FF48D984E4BE3C31C4CC6B /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VolleyBallBoxScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA9E253C3DCADC0919C0791E1EC65B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE721ADED43F40FA8B2F9201A9A3D13 /* Foundation.framework in Frameworks */,
+				60648F2C582B4A40E3B7E32C28A94315 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42A499886B7B0FEE33C3D44ABC35A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E92DFD5C89F0F6C4EBAFFA5ED8FF20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E19072CC6819C5CCB706A88917C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91402D02E7D72AC0D3B51C07B441FFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D693CBC8E9ACDE7301C041C0746A99E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146DEC76C2CF0A4E662E217F421D036E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		091936D54FC177A338CCF9895A484FBF /* Pods-VolleyBallBoxScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				57429E8DBE932371AF84DD97F0C451F0 /* Pods-VolleyBallBoxScoreTests-acknowledgements.markdown */,
+				E0EF6E3BAE79042766E2E2E0C83BE43D /* Pods-VolleyBallBoxScoreTests-acknowledgements.plist */,
+				76F1098083768B77437D37C1CEF6603A /* Pods-VolleyBallBoxScoreTests-dummy.m */,
+				8257BB9B3905333DB946302BA52E2DFD /* Pods-VolleyBallBoxScoreTests-frameworks.sh */,
+				FC212CA3FDAC5AE3504A78FE0D919BD4 /* Pods-VolleyBallBoxScoreTests-resources.sh */,
+				E3BE9BE783781467181B7C4F84905C35 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */,
+				8DF398AC42C41D917390DC2631331415 /* Pods-VolleyBallBoxScoreTests.release.xcconfig */,
+			);
+			name = "Pods-VolleyBallBoxScoreTests";
+			path = "Target Support Files/Pods-VolleyBallBoxScoreTests";
+			sourceTree = "<group>";
+		};
+		2D545505E42F1466E7088CB6B0DB9F51 /* Pods-VolleyBallBoxScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				774A4E047BE035A7DC249D7EE026CAB7 /* Pods-VolleyBallBoxScoreUITests-acknowledgements.markdown */,
+				41F7EE0BADF3A9F1B965667B1EDD3868 /* Pods-VolleyBallBoxScoreUITests-acknowledgements.plist */,
+				F0D1D7E8FC7F449305CD68A660F90829 /* Pods-VolleyBallBoxScoreUITests-dummy.m */,
+				C0A29F6B737E0EBE114B299D99D75CE7 /* Pods-VolleyBallBoxScoreUITests-frameworks.sh */,
+				0B6AFEAA8CE75323BB2A77DFFEC6A47B /* Pods-VolleyBallBoxScoreUITests-resources.sh */,
+				FD5301F306FF48D984E4BE3C31C4CC6B /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */,
+				5215CC02119EC55D1C4F8224456E3C04 /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */,
+			);
+			name = "Pods-VolleyBallBoxScoreUITests";
+			path = "Target Support Files/Pods-VolleyBallBoxScoreUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				74588D48F629C3D7E6B7E12AB83072D6 /* Pods */,
+				CE091D23CAE44C26FE7E2BD3CC54F1E7 /* Products */,
+				8D6543304D134BE878AD31CC9C99AABA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6543304D134BE878AD31CC9C99AABA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3177E3537FE9C723E7A53E98BD0EFD /* Pods-VolleyBallBoxScore */,
+				091936D54FC177A338CCF9895A484FBF /* Pods-VolleyBallBoxScoreTests */,
+				2D545505E42F1466E7088CB6B0DB9F51 /* Pods-VolleyBallBoxScoreUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */,
+				64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */,
+				C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */,
+				9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */,
+				DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */,
+				D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */,
+				68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */,
+				E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */,
+				035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */,
+				BDE1D145F4A334224EB232EECAD63B61 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		BDE1D145F4A334224EB232EECAD63B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */,
+				6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */,
+				86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA3177E3537FE9C723E7A53E98BD0EFD /* Pods-VolleyBallBoxScore */ = {
+			isa = PBXGroup;
+			children = (
+				368DEE108EEFC7BE1EB0C98FFA852AA3 /* Pods-VolleyBallBoxScore-acknowledgements.markdown */,
+				CC9D9BD7B4E5A405EA737E225149D50F /* Pods-VolleyBallBoxScore-acknowledgements.plist */,
+				758A4510CABB796CE890741214F77358 /* Pods-VolleyBallBoxScore-dummy.m */,
+				6081FE729446B0FC8FE9434061C78EF7 /* Pods-VolleyBallBoxScore-frameworks.sh */,
+				DD2F3FBDA41F1014A63C571E16FEA941 /* Pods-VolleyBallBoxScore-resources.sh */,
+				6856585AA0A08C82EA672BD02CD16A50 /* Pods-VolleyBallBoxScore.debug.xcconfig */,
+				783FB4D454583B34B2EC34D0F08B43E7 /* Pods-VolleyBallBoxScore.release.xcconfig */,
+			);
+			name = "Pods-VolleyBallBoxScore";
+			path = "Target Support Files/Pods-VolleyBallBoxScore";
+			sourceTree = "<group>";
+		};
+		CE091D23CAE44C26FE7E2BD3CC54F1E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233C2FF585B9364D81FA274A7767F2CD /* libPods-VolleyBallBoxScore.a */,
+				376DFFEA0656FB1DD4F5CE2C65328241 /* libPods-VolleyBallBoxScoreTests.a */,
+				FD49B5A30DB97275FF81EE83964B8FC4 /* libPods-VolleyBallBoxScoreUITests.a */,
+				A20E9F67F636DE01062FEFF316AF5A7E /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F7010D8078CC0F19483A67A70ADB7A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CC16DF3ED7477358C4F69AD92A3E5 /* SVIndefiniteAnimatedView.h in Headers */,
+				A8B8E22E928E0E0C222881C9616FBBC6 /* SVProgressAnimatedView.h in Headers */,
+				09A1933C23EA045537EED5856E9946CE /* SVProgressHUD.h in Headers */,
+				A04EE91959D7FF0B1C0A4FF1E5EDE6C5 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0160BF58B41E1812F7E746921065A0FA /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6F362F5B697C201E64EC71C1B35B24 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				38977C3D11F0351626741413A26CF619 /* Sources */,
+				7BA9E253C3DCADC0919C0791E1EC65B4 /* Frameworks */,
+				9F7010D8078CC0F19483A67A70ADB7A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = A20E9F67F636DE01062FEFF316AF5A7E /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1C7560035A2350019873F39CAB79020 /* Pods-VolleyBallBoxScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199EA38B6A589470F7748A1EF7D4C757 /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScore" */;
+			buildPhases = (
+				DAF592E29C7752F40FA98CB6FCFE10BC /* Sources */,
+				C8E19072CC6819C5CCB706A88917C443 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DEE4D30FB5DB42686E78AEE2C52A14 /* PBXTargetDependency */,
+			);
+			name = "Pods-VolleyBallBoxScore";
+			productName = "Pods-VolleyBallBoxScore";
+			productReference = 233C2FF585B9364D81FA274A7767F2CD /* libPods-VolleyBallBoxScore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD9779D108016B7D82035F29468FE6AE /* Pods-VolleyBallBoxScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256617D144F3B8FA4BAB4467F1384DE /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScoreUITests" */;
+			buildPhases = (
+				007D45289B8B04EB4C8556C0988EEACF /* Sources */,
+				9B42A499886B7B0FEE33C3D44ABC35A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VolleyBallBoxScoreUITests";
+			productName = "Pods-VolleyBallBoxScoreUITests";
+			productReference = FD49B5A30DB97275FF81EE83964B8FC4 /* libPods-VolleyBallBoxScoreUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5F213E94772EEDF77A0CD34CBFCDEDF /* Pods-VolleyBallBoxScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E4A348542162B68E775F8207E1611B /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScoreTests" */;
+			buildPhases = (
+				F5FD4EE60160DB0852B9AEC0AB9C4168 /* Sources */,
+				D693CBC8E9ACDE7301C041C0746A99E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VolleyBallBoxScoreTests";
+			productName = "Pods-VolleyBallBoxScoreTests";
+			productReference = 376DFFEA0656FB1DD4F5CE2C65328241 /* libPods-VolleyBallBoxScoreTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CE091D23CAE44C26FE7E2BD3CC54F1E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C7560035A2350019873F39CAB79020 /* Pods-VolleyBallBoxScore */,
+				F5F213E94772EEDF77A0CD34CBFCDEDF /* Pods-VolleyBallBoxScoreTests */,
+				CD9779D108016B7D82035F29468FE6AE /* Pods-VolleyBallBoxScoreUITests */,
+				0160BF58B41E1812F7E746921065A0FA /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007D45289B8B04EB4C8556C0988EEACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05431F84EE3369731186EA0E34E31381 /* Pods-VolleyBallBoxScoreUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38977C3D11F0351626741413A26CF619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B407C099EC6361E03182A27A108F1D /* SVIndefiniteAnimatedView.m in Sources */,
+				BD2BD237D71DC86BF6482EFB8A68DD31 /* SVProgressAnimatedView.m in Sources */,
+				130ADACF4BC23710E438F5E4D3C26BFC /* SVProgressHUD-dummy.m in Sources */,
+				AEA4400D7475B30AC67659501E9C3B96 /* SVProgressHUD.m in Sources */,
+				195B016939B20E446B00D8DD5C5451E1 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF592E29C7752F40FA98CB6FCFE10BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7477722AB8C9F77205059CF52BA8C2C /* Pods-VolleyBallBoxScore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FD4EE60160DB0852B9AEC0AB9C4168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7A748BD077211D41AAB8DA478FDE43 /* Pods-VolleyBallBoxScoreTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DEE4D30FB5DB42686E78AEE2C52A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 0160BF58B41E1812F7E746921065A0FA /* SVProgressHUD */;
+			targetProxy = 2E504CF55AE11F4A63B8E7E93DB11C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17F3B8A912FA317403DE3C2515606D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BE9BE783781467181B7C4F84905C35 /* Pods-VolleyBallBoxScoreTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D6EF75AA4F30D30434E0F891869D922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6856585AA0A08C82EA672BD02CD16A50 /* Pods-VolleyBallBoxScore.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49530DFFEA46EF08861A846CFF7A402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA3693E7277201B59F9B0DF6E693EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5301F306FF48D984E4BE3C31C4CC6B /* Pods-VolleyBallBoxScoreUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B52B0A378956A473836D4956C7BAE514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5215CC02119EC55D1C4F8224456E3C04 /* Pods-VolleyBallBoxScoreUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2BFC85751BFA58E7DE53D9877C4912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF398AC42C41D917390DC2631331415 /* Pods-VolleyBallBoxScoreTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D886E03DCB0A64621D4E7539CA839F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC0D1A81EE187F82D5677AFE305A83D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783FB4D454583B34B2EC34D0F08B43E7 /* Pods-VolleyBallBoxScore.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199EA38B6A589470F7748A1EF7D4C757 /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6EF75AA4F30D30434E0F891869D922 /* Debug */,
+				FC0D1A81EE187F82D5677AFE305A83D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6F362F5B697C201E64EC71C1B35B24 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49530DFFEA46EF08861A846CFF7A402F /* Debug */,
+				D886E03DCB0A64621D4E7539CA839F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E4A348542162B68E775F8207E1611B /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F3B8A912FA317403DE3C2515606D88 /* Debug */,
+				C2BFC85751BFA58E7DE53D9877C4912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256617D144F3B8FA4BAB4467F1384DE /* Build configuration list for PBXNativeTarget "Pods-VolleyBallBoxScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3693E7277201B59F9B0DF6E693EF7A /* Debug */,
+				B52B0A378956A473836D4956C7BAE514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
